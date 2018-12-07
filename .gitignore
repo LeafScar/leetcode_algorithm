@@ -3,3 +3,7 @@
 ################################################################################
 
 *.user
+/.vs/leetcode_algorithm/v15/ipch/AutoPCH/9ab7c564fd57fafb/SEARCH_IN_ROTATED_SORTED_ARRAY.ipch
+/.vs/leetcode_algorithm/v15/.suo
+*.db
+*.opendb
