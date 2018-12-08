@@ -19,3 +19,5 @@
 *.exe
 *.ilk
 *.log
+*.sqlite-journal
+*.obj
