@@ -7,3 +7,15 @@
 /.vs/leetcode_algorithm/v15/.suo
 *.db
 *.opendb
+*.ipch
+*.db-shm
+*.db-wal
+*.sqlite
+/.vs/ProjectSettings.json
+/.vs/VSWorkspaceState.json
+*.tlog
+*.idb
+*.pdb
+*.exe
+*.ilk
+*.log

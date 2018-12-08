@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "palindrome_number", "palind
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "search_in_rotated_sorted_array", "search_in_rotated_sorted_array\search_in_rotated_sorted_array.vcxproj", "{C81BE24E-132A-451B-B155-4EE04A290327}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "expressive_words", "expressive_words\expressive_words.vcxproj", "{85575DBF-056B-4CB5-83AF-DB83408DF150}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{C81BE24E-132A-451B-B155-4EE04A290327}.Release|x64.Build.0 = Release|x64
 		{C81BE24E-132A-451B-B155-4EE04A290327}.Release|x86.ActiveCfg = Release|Win32
 		{C81BE24E-132A-451B-B155-4EE04A290327}.Release|x86.Build.0 = Release|Win32
+		{85575DBF-056B-4CB5-83AF-DB83408DF150}.Debug|x64.ActiveCfg = Debug|x64
+		{85575DBF-056B-4CB5-83AF-DB83408DF150}.Debug|x64.Build.0 = Debug|x64
+		{85575DBF-056B-4CB5-83AF-DB83408DF150}.Debug|x86.ActiveCfg = Debug|Win32
+		{85575DBF-056B-4CB5-83AF-DB83408DF150}.Debug|x86.Build.0 = Debug|Win32
+		{85575DBF-056B-4CB5-83AF-DB83408DF150}.Release|x64.ActiveCfg = Release|x64
+		{85575DBF-056B-4CB5-83AF-DB83408DF150}.Release|x64.Build.0 = Release|x64
+		{85575DBF-056B-4CB5-83AF-DB83408DF150}.Release|x86.ActiveCfg = Release|Win32
+		{85575DBF-056B-4CB5-83AF-DB83408DF150}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
