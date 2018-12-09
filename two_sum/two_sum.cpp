@@ -14,7 +14,7 @@ public:
 		for (int i = 0; i < nums.size(); ++i)
 		{
 			int r = target - nums[i];
-			if (hashMap.count(r) > 0 && hashMap[r] != i != i)
+			if (hashMap.count(r) > 0 && hashMap[r] != i)
 			{
 				rel.push_back(i);
 				rel.push_back(hashMap[r]);
