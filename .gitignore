@@ -21,3 +21,4 @@
 *.log
 *.sqlite-journal
 *.obj
+*.suo
