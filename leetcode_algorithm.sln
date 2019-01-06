@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zuma", "zuma\zuma.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "longest_substring_without_repeating_characters", "longest_substring_without_repeating_characters\longest_substring_without_repeating_characters.vcxproj", "{8EDADB5F-8818-480D-AE9A-86D64CA20BF3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "light_house", "light_house\light_house.vcxproj", "{8770E67B-0FA9-4357-9BC7-F70DD9ABF21F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{8EDADB5F-8818-480D-AE9A-86D64CA20BF3}.Release|x64.Build.0 = Release|x64
 		{8EDADB5F-8818-480D-AE9A-86D64CA20BF3}.Release|x86.ActiveCfg = Release|Win32
 		{8EDADB5F-8818-480D-AE9A-86D64CA20BF3}.Release|x86.Build.0 = Release|Win32
+		{8770E67B-0FA9-4357-9BC7-F70DD9ABF21F}.Debug|x64.ActiveCfg = Debug|x64
+		{8770E67B-0FA9-4357-9BC7-F70DD9ABF21F}.Debug|x64.Build.0 = Debug|x64
+		{8770E67B-0FA9-4357-9BC7-F70DD9ABF21F}.Debug|x86.ActiveCfg = Debug|Win32
+		{8770E67B-0FA9-4357-9BC7-F70DD9ABF21F}.Debug|x86.Build.0 = Debug|Win32
+		{8770E67B-0FA9-4357-9BC7-F70DD9ABF21F}.Release|x64.ActiveCfg = Release|x64
+		{8770E67B-0FA9-4357-9BC7-F70DD9ABF21F}.Release|x64.Build.0 = Release|x64
+		{8770E67B-0FA9-4357-9BC7-F70DD9ABF21F}.Release|x86.ActiveCfg = Release|Win32
+		{8770E67B-0FA9-4357-9BC7-F70DD9ABF21F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
