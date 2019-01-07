@@ -35,6 +35,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "longest_palindromic_substri
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZigZag_conversion", "ZigZag_conversion\ZigZag_conversion.vcxproj", "{5ECC5C90-2F63-49F3-BFA1-25AC60ECB91C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reverse_integer", "reverse_integer\reverse_integer.vcxproj", "{7C3E0747-DFCE-4E6A-8050-33B76DAB1EEE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "string_to_integer", "string_to_integer\string_to_integer.vcxproj", "{A083D80A-AF55-4D44-B121-E764B0FF1398}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +175,22 @@ Global
 		{5ECC5C90-2F63-49F3-BFA1-25AC60ECB91C}.Release|x64.Build.0 = Release|x64
 		{5ECC5C90-2F63-49F3-BFA1-25AC60ECB91C}.Release|x86.ActiveCfg = Release|Win32
 		{5ECC5C90-2F63-49F3-BFA1-25AC60ECB91C}.Release|x86.Build.0 = Release|Win32
+		{7C3E0747-DFCE-4E6A-8050-33B76DAB1EEE}.Debug|x64.ActiveCfg = Debug|x64
+		{7C3E0747-DFCE-4E6A-8050-33B76DAB1EEE}.Debug|x64.Build.0 = Debug|x64
+		{7C3E0747-DFCE-4E6A-8050-33B76DAB1EEE}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C3E0747-DFCE-4E6A-8050-33B76DAB1EEE}.Debug|x86.Build.0 = Debug|Win32
+		{7C3E0747-DFCE-4E6A-8050-33B76DAB1EEE}.Release|x64.ActiveCfg = Release|x64
+		{7C3E0747-DFCE-4E6A-8050-33B76DAB1EEE}.Release|x64.Build.0 = Release|x64
+		{7C3E0747-DFCE-4E6A-8050-33B76DAB1EEE}.Release|x86.ActiveCfg = Release|Win32
+		{7C3E0747-DFCE-4E6A-8050-33B76DAB1EEE}.Release|x86.Build.0 = Release|Win32
+		{A083D80A-AF55-4D44-B121-E764B0FF1398}.Debug|x64.ActiveCfg = Debug|x64
+		{A083D80A-AF55-4D44-B121-E764B0FF1398}.Debug|x64.Build.0 = Debug|x64
+		{A083D80A-AF55-4D44-B121-E764B0FF1398}.Debug|x86.ActiveCfg = Debug|Win32
+		{A083D80A-AF55-4D44-B121-E764B0FF1398}.Debug|x86.Build.0 = Debug|Win32
+		{A083D80A-AF55-4D44-B121-E764B0FF1398}.Release|x64.ActiveCfg = Release|x64
+		{A083D80A-AF55-4D44-B121-E764B0FF1398}.Release|x64.Build.0 = Release|x64
+		{A083D80A-AF55-4D44-B121-E764B0FF1398}.Release|x86.ActiveCfg = Release|Win32
+		{A083D80A-AF55-4D44-B121-E764B0FF1398}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
