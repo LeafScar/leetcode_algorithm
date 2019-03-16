@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "merge_two_binary_trees", "m
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "elimination_game", "elimination_game\elimination_game.vcxproj", "{61B5B82A-722B-4F5F-91F6-07037D50BA1A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "number_of_islands", "number_of_islands\number_of_islands.vcxproj", "{AD9CC43F-ABB1-4F1D-B30B-81CAE6F87D3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -281,6 +283,14 @@ Global
 		{61B5B82A-722B-4F5F-91F6-07037D50BA1A}.Release|x64.Build.0 = Release|x64
 		{61B5B82A-722B-4F5F-91F6-07037D50BA1A}.Release|x86.ActiveCfg = Release|Win32
 		{61B5B82A-722B-4F5F-91F6-07037D50BA1A}.Release|x86.Build.0 = Release|Win32
+		{AD9CC43F-ABB1-4F1D-B30B-81CAE6F87D3F}.Debug|x64.ActiveCfg = Debug|x64
+		{AD9CC43F-ABB1-4F1D-B30B-81CAE6F87D3F}.Debug|x64.Build.0 = Debug|x64
+		{AD9CC43F-ABB1-4F1D-B30B-81CAE6F87D3F}.Debug|x86.ActiveCfg = Debug|Win32
+		{AD9CC43F-ABB1-4F1D-B30B-81CAE6F87D3F}.Debug|x86.Build.0 = Debug|Win32
+		{AD9CC43F-ABB1-4F1D-B30B-81CAE6F87D3F}.Release|x64.ActiveCfg = Release|x64
+		{AD9CC43F-ABB1-4F1D-B30B-81CAE6F87D3F}.Release|x64.Build.0 = Release|x64
+		{AD9CC43F-ABB1-4F1D-B30B-81CAE6F87D3F}.Release|x86.ActiveCfg = Release|Win32
+		{AD9CC43F-ABB1-4F1D-B30B-81CAE6F87D3F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
