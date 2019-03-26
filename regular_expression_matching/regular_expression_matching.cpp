@@ -6,64 +6,64 @@ using namespace std;
 
 class Solution {
 public:
-bool isMatch(string s, string p) {
-	int s_i = 0;
-	int p_i = 0;
+	bool isMatch(string s, string p) {
+		int s_i = 0;
+		int p_i = 0;
 
-	vector<int> backNums;
-	vector<int> backP_is;
-	vector<int> backS_is;
-	while (p_i < p.length())
-	{
-		int num = 0;
-		if (p_i + 1 < p.length() && p[p_i + 1] == '*')
+		vector<int> backNums;
+		vector<int> backP_is;
+		vector<int> backS_is;
+		while (p_i < p.length())
 		{
-			num = isDoubleMatch(s, s_i, p, p_i);
-			p_i = p_i + 2;
-			if (num > 0)
+			int num = 0;
+			if (p_i + 1 < p.length() && p[p_i + 1] == '*')
 			{
-				backNums.push_back(num);
-				backP_is.push_back(p_i);
-				backS_is.push_back(s_i);
+				num = isDoubleMatch(s, s_i, p, p_i);
+				p_i = p_i + 2;
+				if (num > 0)
+				{
+					backNums.push_back(num);
+					backP_is.push_back(p_i);
+					backS_is.push_back(s_i);
+				}
 			}
-		}
-		else
-		{
-			num = isSimpleMatch(s, s_i, p, p_i);
-			p_i++;
-		}
-		if (num < 0)
-		{
-			if (backNums.empty())
-				return false;
-
-			if (backNums.empty())
-				return false;
-
-			backNums[backNums.size() - 1]--;
-			p_i = backP_is[backNums.size() - 1];
-			s_i = backS_is[backNums.size() - 1] + backNums[backNums.size() - 1];
-
-			if (backNums[backNums.size() - 1] == 0)
+			else
 			{
-				backNums.pop_back();
-				backP_is.pop_back();
-				backS_is.pop_back();
+				num = isSimpleMatch(s, s_i, p, p_i);
+				p_i++;
 			}
+			if (num < 0)
+			{
+				if (backNums.empty())
+					return false;
+
+				if (backNums.empty())
+					return false;
+
+				backNums[backNums.size() - 1]--;
+				p_i = backP_is[backNums.size() - 1];
+				s_i = backS_is[backNums.size() - 1] + backNums[backNums.size() - 1];
+
+				if (backNums[backNums.size() - 1] == 0)
+				{
+					backNums.pop_back();
+					backP_is.pop_back();
+					backS_is.pop_back();
+				}
+			}
+			else
+				s_i = s_i + num;
 		}
-		else
-			s_i = s_i + num;
+		return  s_i >= s.length();
 	}
-	return  s_i >= s.length();
-}
 
 	// ·µ»ØÆ¥ÅäµÄ¸öÊý£¬Æ¥Åä´íÎó·µ»Ø-1
-	/* 
+	/*
 	 * 1.µ¥×Ö·û£ºÈÎÒâ·Ç'.'¡¢'*'×Ö·û
 	 * 2.µ¥×Ö·û£º'.'
 	 * 3.Ë«×Ö·û£ºÈÎÒâ·Ç'.'×Ö·û+'*'
 	 * 4.Ë«×Ö·û£º".*"
-	 */ 
+	 */
 	int isSimpleMatch(string& s, int s_i, string& p, int p_i)
 	{
 		if (s_i >= s.length())
